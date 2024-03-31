@@ -54,8 +54,10 @@ If you don't want others (or yourself) to overwrite existing values, you can add
 This will declare the variable as "constant", which means unchangeable and read-only:
 ExampleGet your own C# Server
 */
-const int myNum3 = 15;
-myNum3 = 20; // error
+
+//
+//const int myNum3 = 15;
+//myNum3 = 20; // error
 
 
 
@@ -65,3 +67,9 @@ The const keyword is useful when you want a variable to always store the same va
 Note: You cannot declare a constant variable without assigning the value. If you do, an error will occur: A const field requires a value to be provided.*/
 
 
+/*
+The WriteLine() method is often used to display variable values to the console window.
+To combine both text and a variable, use the + character:
+*/
+
+Console.WriteLine("Hello " + name);
